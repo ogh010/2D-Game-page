@@ -157,13 +157,13 @@ header ul li {
     display: flex;
 }
 
-#support div{
-    flex: 1;
-    font-family: 'Noto Sans KR', sans-serif;
-    padding: 120px 60px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+#support > div {
+	flex:1;
+	font-family: 'Noto Sans KR', sans-serif;
+	padding: 120px 60px;
+	display:flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
 #support .info-slot {
 	width:80%;
